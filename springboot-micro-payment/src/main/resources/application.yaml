@@ -1,0 +1,8 @@
+server:
+  port: 8000
+spring:
+  backend:
+    topicName: payment-topic
+  kafka:
+    producer:
+      bootstrap-service: localhost:29092
